@@ -50,9 +50,7 @@ The analysis follows three main steps:
 ### 2. Transformation Modeling
 - For each task, a **latent transformation vector** is computed:
   
-  \[
-  \Delta = \text{embedding(output)} - \text{embedding(input)}
-  \]
+  Delta = embedding(output) - embedding(input)
 
 - These vectors represent *how* a task changes an image, rather than *what* the image looks like.
 
