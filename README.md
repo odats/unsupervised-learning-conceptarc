@@ -47,6 +47,8 @@ The analysis follows three main steps:
 - **Non-Negative Matrix Factorization (NMF)** is applied to learn part-based latent representations.
 - NMF components are interpretable and preserve spatial structure.
 
+![NMF Components](nmf.png)
+
 ### 2. Transformation Modeling
 - For each task, a **latent transformation vector** is computed:
   
@@ -88,7 +90,3 @@ These results suggest that **unsupervised learning can recover meaningful task s
 - Incorporate spatial priors into representations,
 - Combine unsupervised clustering with lightweight supervision,
 - Evaluate robustness across random seeds and dataset subsets.
-
----
-
-## Repository Structure
